@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:3000/dashboard -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <meta name="description" content="Simple blog created with NodeJs">
+    <!-- css -->
+    <link rel="stylesheet" href="./Admin_files/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Admin_files/css2" rel="stylesheet">
+    <!-- js -->
+    <script type="text/javascript" defer="" src="./Admin_files/script.js"></script>
+
+</head>
+<body>
+    <div class="search-bar">
+    <div class="container">
+        <form action="http://localhost:3000/search" class="search__form" role="search" method="POST">
+            <input type="search" aria-label="Search" id="searchInput" name="searchTerm" placeholder="Search the page...">
+        </form>
+        <div id="searchClose">Close</div>
+    </div>
+</div>
+    <div class="container">
+        <header class="header">
+    <a href="http://localhost:3000/" class="header__logo">NodeJs</a>
+    <nav class="header__nav">
+        <ul>
+            <li>
+                <a href="http://localhost:3000/" class="">Home</a>
+            </li>
+            <li>
+                <a href="http://localhost:3000/about">About</a>
+            </li>
+            <li>
+                <a href="http://localhost:3000/">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__button">
+        <button class="searchBtn" aria-expanded="false">
+            Search
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.79167 13.4583C10.9213 13.4583 13.4583 10.9213 13.4583 7.79167C13.4583 4.66205 10.9213 2.125 7.79167 2.125C4.66205 2.125 2.125 4.66205 2.125 7.79167C2.125 10.9213 4.66205 13.4583 7.79167 13.4583Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.875 14.875L11.7938 11.7938" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+        </button>
+    </div>
+</header>
+        <main class="main">
+            <div class="admin-title">
+    <h2>Posts</h2>
+    <a href="http://localhost:3000/add-post" class="button"> + Add new</a>
+</div>
+
+<ul class="admin-posts">
+    
+        <li>
+            <a href="http://localhost:3000/post/65c505cffc31b27b938bafd5">
+            Building a blog ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c505cffc31b27b938bafd5" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd280">
+            Building a blog ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd280" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd281">
+            Deployment of Node.js applications ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd281" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd282">
+            Authentication and Authorization in Node.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd282" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd283">
+            Understand how to work with MongoDB and Mongoose ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd283" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd284">
+            build real-time, event-driven applications in Node.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd284" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064309ed7a299cebd285">
+            Discover how to use Express.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064309ed7a299cebd285" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f0b">
+            Building a blog ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f0b" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f0c">
+            Deployment of Node.js applications ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f0c" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f0d">
+            Authentication and Authorization in Node.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f0d" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f0e">
+            Understand how to work with MongoDB and Mongoose ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f0e" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f0f">
+            build real-time, event-driven applications in Node.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f0f" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+        <li>
+            <a href="http://localhost:3000/post/65c5064523b72fded7827f10">
+            Discover how to use Express.js ↗
+            </a>
+            <div class="admin-post-controls">
+                <a href="http://localhost:3000/&#39;/edit-post/65c5064523b72fded7827f10" class="btn">Edit</a>
+
+                <form action="http://localhost:3000/delete-post/?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" class="btn">
+                </form>
+            </div>
+        </li>
+    
+</ul>
+        </main>       
+        <footer class="footer">
+    © 2024 Marco Véio - Built with NodeJS &amp; MongoDB
+</footer>
+    </div>
+    
+
+</body></html>
